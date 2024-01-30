@@ -53,7 +53,7 @@ export default function Header() {
         </div>
         <div className="cursor-pointer h-24 w-10 relative  lg:hidden">
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png"
+            src="/logo.png"
             layout="fill"
             className="object-contain"
             onClick={() => router.push("/")}
